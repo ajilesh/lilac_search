@@ -7,5 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About Lilac Project
+
+Steps:
+1) Download the project from git repository to local machine.
+2) Import Database from inside the database folder(department.sql).
+3) Edit database name in .env file.
+4) Insert Data during migrate Database with the help of the following command(php artisan migrate:fresh --seed).
+5) Run the project local browser using laravel php artisan serve command. 
 
